@@ -1,0 +1,40 @@
+span.capitalize {
+    text-transform: capitalize;
+}
+
+span.badge.pull-left {
+    margin-right: 1em;
+    width: 5em;
+}
+
+span.hero-name {
+    margin-left: 1em;
+    text-transform: uppercase;
+}
+
+div {
+    font-family: 'pokemon-font', monospace;
+}
+
+.card-header {
+    background-color: #ee1515;
+    color: white;
+}
+
+.card-body {
+    background-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-test {
+        margin-top:-1px;
+    }
+
+    .heroes {
+        margin-bottom:-1px;
+    }
+
+    .btn {
+        margin-bottom:1em;
+}
+}

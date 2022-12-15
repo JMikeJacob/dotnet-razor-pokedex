@@ -1,0 +1,94 @@
+@page "{id:int?}"
+@model PokedexV2.Pages_Pokemon.DetailsModel
+
+@{
+    ViewData["Title"] = "National Pokedex - " + Model.Pokemon.Name;
+}
+<div class="card shadow rounded">
+  <div class="card-header">
+        <div class="d-grid gap-2 d-md-flex">
+            <div class="p-2">
+                <h4>
+                    <span class="badge bg-dark">
+                        @Model.Pokemon.GetPaddedId()
+                    </span>  
+                    <span class="text-uppercase" style="padding:1em;">@Html.DisplayFor(model => model.Pokemon.Name)</span>
+            </h4>
+            </div>
+            <div class="p-2 ms-auto">
+                    <span><a asp-page="./Index" class="btn btn-outline-light">Return to List</a></span>
+            </div>
+            <!-- <button type="button" class="close" aria-label="Close" (click)="activeModal.dismiss('Cross click')">&times;</button> -->
+            
+        </div>
+  </div>
+  <div class="card-body">
+    <div class="details">
+      <div class="row g-0">
+        <div class="col-lg-3 ">
+            <img class="img-responsive img-thumbnail sprite" style="width:200px;height:200px;" src="@Model.Pokemon.PhotoPath"/>
+        </div>
+        <div class="col-lg-9 info">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <span class="genus text-capitalize">
+                            @Html.DisplayFor(model => model.Pokemon.Genus)
+                        </span><br/>
+                        <h5 class="type-display">
+                            <span class="badge text-uppercase @Model.Pokemon.Type1.ToLower()" style="margin-right:0.5em;">
+                                @Html.DisplayFor(model => model.Pokemon.Type1)
+                            </span>
+                            @{
+                                if (!string.IsNullOrEmpty(Model.Pokemon.Type2)) {
+                                    <span class="badge text-uppercase @Model.Pokemon.Type2.ToLower()" style="margin-right:0.5em;">
+                                        @Html.DisplayFor(model => model.Pokemon.Type2)
+                                    </span>
+                                }
+                            }
+                        </h5>
+                        <ul class="hw">
+                            <li class="height">HT: @Html.DisplayFor(model => model.Pokemon.Height) m</li>
+                            <li class="weight">WT: @Html.DisplayFor(model => model.Pokemon.Weight) kg</li>
+                        </ul>
+                
+                        <div class="habitat text-capitalize" style="margin-top:-1em;">
+                            Habitat: @Html.DisplayFor(model => model.Pokemon.Habitat)<br/>
+                            Generation: Generation @Html.DisplayFor(model => model.Pokemon.Generation)
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <h5>Abilities</h5>
+                        <ul class="abilities">
+                            @if(Model.Pokemon != null && Model.Pokemon.Abilities != null && Model.Pokemon.Abilities.Count > 0){
+                                @for(int i = 0; i < Model.Pokemon.Abilities.Count; i++) {
+                                    <li class="ability">@Html.DisplayFor(model => model.Pokemon.Abilities[i].Name)
+                                        @{
+                                            var tooltipText = "No Effect";
+                                            if (!string.IsNullOrEmpty(Model.Pokemon.Abilities[i].Effect)) {
+                                                tooltipText = Model.Pokemon.Abilities[i].Effect;
+                                            }
+                                        }
+                                        <span class="css-tooltip" data-tooltip="@tooltipText"><i class="bi bi-question-circle-fill"></i></span>
+                                    </li>
+                                }
+                            } else {
+                                <li class="ability">NONE</li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+            <p class="flavor-text border border-dark rounded">
+                @Html.DisplayFor(model => model.Pokemon.Definition)
+            </p>
+        </div>
+      </div>
+          
+    </div>
+  </div>
+</div>

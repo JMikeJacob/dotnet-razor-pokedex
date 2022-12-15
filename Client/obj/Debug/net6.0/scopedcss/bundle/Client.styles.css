@@ -1,0 +1,424 @@
+/* _content/Client/Pages/Pokemon/Create.cshtml.rz.scp.css */
+div[b-f9fqvsqq8o] {
+    font-family: 'pokemon-font', monospace;
+}
+
+.type[b-f9fqvsqq8o] {
+    text-transform: uppercase;
+}
+
+.card-header[b-f9fqvsqq8o] {
+    background-color:#222224;
+    color: white;
+}
+
+.flavor-text[b-f9fqvsqq8o] {
+    background-color: white;
+    padding:1em;
+    margin-top:0.5em;
+}
+
+.capitalize[b-f9fqvsqq8o] {
+    text-transform: capitalize;
+    margin-left: 0.5em;
+}
+
+  .genus[b-f9fqvsqq8o] {
+      padding-top:0.5em;
+  }
+
+  .color-green[b-f9fqvsqq8o] {
+      background-color: green;
+  }
+
+  .type-display[b-f9fqvsqq8o] {
+    margin-top: 0.25em;
+  }
+
+  .normal[b-f9fqvsqq8o] {
+	background-color: #A8A878;
+	border: 1px solid #6D6D4E;
+}
+
+.fire[b-f9fqvsqq8o] {
+	background-color: #F08030;
+	border: 1px solid #9C531F;
+}
+
+.water[b-f9fqvsqq8o] {
+	background-color: #6890F0;
+	border: 1px solid #445E9C;
+}
+
+.electric[b-f9fqvsqq8o] {
+	background-color: #F8D030;
+	border: 1px solid #A1871F;
+}
+
+.grass[b-f9fqvsqq8o] {
+	background-color: #78C850;
+	border: 1px solid #4E8234;
+}
+
+.ice[b-f9fqvsqq8o] {
+	background-color: #98D8D8;
+	border: 1px solid #638D8D;
+}
+
+.ground[b-f9fqvsqq8o] {
+	background-color: #E0C068;
+	border: 1px solid #927D44;
+}
+
+.flying[b-f9fqvsqq8o] {
+	background-color: #A890F0;
+	border: 1px solid #6D5E9C;
+}
+
+.ghost[b-f9fqvsqq8o] {
+	background-color: #705898;
+	border: 1px solid #493963;
+}
+
+.rock[b-f9fqvsqq8o] {
+	background-color: #B8A038;
+	border: 1px solid #786824;
+}
+
+.fighting[b-f9fqvsqq8o] {
+	background-color: #C03028;
+	border: 1px solid #7D1F1A;
+}
+
+.poison[b-f9fqvsqq8o] {
+	background-color: #A040A0;
+	border: 1px solid #682A68;
+}
+
+.psychic[b-f9fqvsqq8o] {
+	background-color: #F85888;
+	border: 1px solid #A13959;
+}
+
+.bug[b-f9fqvsqq8o] {
+	background-color: #A8B820;
+	border: 1px solid #6D7815;
+}
+
+.dark[b-f9fqvsqq8o] {
+	background-color: #705848;
+	border: 1px solid #49392F;
+}
+
+.steel[b-f9fqvsqq8o] {
+	background-color: #B8B8D0;
+	border: 1px solid #787887;
+}
+
+.dragon[b-f9fqvsqq8o] {
+	background-color: #7038F8;
+    border: 1px solid #4924A1;
+}
+
+.fairy[b-f9fqvsqq8o] {
+    background-color: #D685AD;
+    border: 1px solid #A6358D;
+}
+/* _content/Client/Pages/Pokemon/Details.cshtml.rz.scp.css */
+div[b-ebr3lqaz3o] {
+    font-family: 'pokemon-font', monospace;
+}
+
+.type[b-ebr3lqaz3o] {
+    text-transform: uppercase;
+}
+
+ul[b-ebr3lqaz3o] {
+    list-style-type: none;
+    padding:0;
+}
+
+ul li[b-ebr3lqaz3o] {
+    list-style-type: none;
+}
+
+.sprite[b-ebr3lqaz3o] {
+    border: solid black;
+}
+.card-body[b-ebr3lqaz3o] {
+    background-image: url('./images/pbg.png');
+}
+
+.card-header[b-ebr3lqaz3o] {
+    background-color:#222224;
+    color: white;
+}
+
+.flavor-text[b-ebr3lqaz3o] {
+    background-color: white;
+    padding:1em;
+    margin-top:0.5em;
+}
+
+img[b-ebr3lqaz3o] {
+    background-image: url('./images/gray-white.png'); 
+}
+
+.capitalize[b-ebr3lqaz3o] {
+    text-transform: capitalize;
+    margin-left: 0.5em;
+}
+
+.info[b-ebr3lqaz3o] {
+    background-color: #f0f0f0;
+    color: #222224;
+    padding:0.5em;
+  }
+
+  @media only screen and (max-width: 768px) {
+      .info[b-ebr3lqaz3o] {
+        margin-top:0.5em;
+      }
+  }
+
+  .genus[b-ebr3lqaz3o] {
+      padding-top:0.5em;
+  }
+
+  .color-green[b-ebr3lqaz3o] {
+      background-color: green;
+  }
+
+  .type-display[b-ebr3lqaz3o] {
+    margin-top: 0.25em;
+  }
+
+  .normal[b-ebr3lqaz3o] {
+	background-color: #A8A878;
+	border: 1px solid #6D6D4E;
+}
+
+.fire[b-ebr3lqaz3o] {
+	background-color: #F08030;
+	border: 1px solid #9C531F;
+}
+
+.water[b-ebr3lqaz3o] {
+	background-color: #6890F0;
+	border: 1px solid #445E9C;
+}
+
+.electric[b-ebr3lqaz3o] {
+	background-color: #F8D030;
+	border: 1px solid #A1871F;
+}
+
+.grass[b-ebr3lqaz3o] {
+	background-color: #78C850;
+	border: 1px solid #4E8234;
+}
+
+.ice[b-ebr3lqaz3o] {
+	background-color: #98D8D8;
+	border: 1px solid #638D8D;
+}
+
+.ground[b-ebr3lqaz3o] {
+	background-color: #E0C068;
+	border: 1px solid #927D44;
+}
+
+.flying[b-ebr3lqaz3o] {
+	background-color: #A890F0;
+	border: 1px solid #6D5E9C;
+}
+
+.ghost[b-ebr3lqaz3o] {
+	background-color: #705898;
+	border: 1px solid #493963;
+}
+
+.rock[b-ebr3lqaz3o] {
+	background-color: #B8A038;
+	border: 1px solid #786824;
+}
+
+.fighting[b-ebr3lqaz3o] {
+	background-color: #C03028;
+	border: 1px solid #7D1F1A;
+}
+
+.poison[b-ebr3lqaz3o] {
+	background-color: #A040A0;
+	border: 1px solid #682A68;
+}
+
+.psychic[b-ebr3lqaz3o] {
+	background-color: #F85888;
+	border: 1px solid #A13959;
+}
+
+.bug[b-ebr3lqaz3o] {
+	background-color: #A8B820;
+	border: 1px solid #6D7815;
+}
+
+.dark[b-ebr3lqaz3o] {
+	background-color: #705848;
+	border: 1px solid #49392F;
+}
+
+.steel[b-ebr3lqaz3o] {
+	background-color: #B8B8D0;
+	border: 1px solid #787887;
+}
+
+.dragon[b-ebr3lqaz3o] {
+	background-color: #7038F8;
+    border: 1px solid #4924A1;
+}
+
+.fairy[b-ebr3lqaz3o] {
+    background-color: #D685AD;
+    border: 1px solid #A6358D;
+}
+
+.css-tooltip[b-ebr3lqaz3o]{
+    position: relative;
+    
+  }
+  .css-tooltip[b-ebr3lqaz3o]::before{
+    content: attr(data-tooltip); /* here's the magic */
+    position:absolute;
+    
+    /* vertically center */
+    top:50%;
+    transform:translateY(-50%);
+    
+    /* move to right */
+    left:100%;
+    margin-left:15px; /* and add a small left margin */
+    
+    /* basic styles */
+    width:200px;
+    padding:10px;
+    border-radius:10px;
+    background:#000;
+    color: #fff;
+    text-align:center;
+
+    display:none; /* hide by default */
+    }
+
+  .css-tooltip[b-ebr3lqaz3o]:after {
+    content: "";
+    position:absolute;
+    
+    /* position tooltip correctly */
+    left:100%;
+    margin-left:-3px;
+   
+    /* vertically center */
+    top:50%;
+    transform:translateY(-50%);
+   
+    /* the arrow */
+    border:10px solid #000;
+    border-color: transparent black transparent transparent;
+    
+    display:none;
+  }
+
+  .css-tooltip:hover[b-ebr3lqaz3o]:before, .css-tooltip:hover[b-ebr3lqaz3o]:after {
+    display:block;
+  }
+/* _content/Client/Pages/Pokemon/Index.cshtml.rz.scp.css */
+span.capitalize[b-ndnlhuegjk] {
+    text-transform: capitalize;
+}
+
+span.badge.pull-left[b-ndnlhuegjk] {
+    margin-right: 1em;
+    width: 5em;
+}
+
+span.hero-name[b-ndnlhuegjk] {
+    margin-left: 1em;
+    text-transform: uppercase;
+}
+
+div[b-ndnlhuegjk] {
+    font-family: 'pokemon-font', monospace;
+}
+
+.card-header[b-ndnlhuegjk] {
+    background-color: #ee1515;
+    color: white;
+}
+
+.card-body[b-ndnlhuegjk] {
+    background-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-test[b-ndnlhuegjk] {
+        margin-top:-1px;
+    }
+
+    .heroes[b-ndnlhuegjk] {
+        margin-bottom:-1px;
+    }
+
+    .btn[b-ndnlhuegjk] {
+        margin-bottom:1em;
+}
+}
+/* _content/Client/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-6ndbkth074] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-6ndbkth074] {
+  color: #0077cc;
+}
+
+.btn-primary[b-6ndbkth074] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-6ndbkth074], .nav-pills .show > .nav-link[b-6ndbkth074] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-6ndbkth074] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-6ndbkth074] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-6ndbkth074] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-6ndbkth074] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-6ndbkth074] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

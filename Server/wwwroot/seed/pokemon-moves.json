@@ -1,0 +1,4810 @@
+[
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 1
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 1
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 1
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 1
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 2
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 2
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 2
+    },
+    {
+        "name": "vine-whip",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 45,
+        "pp": 25,
+        "type": "grass",
+        "pokemonId": 2
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 3
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 3
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 3
+    },
+    {
+        "name": "vine-whip",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 45,
+        "pp": 25,
+        "type": "grass",
+        "pokemonId": 3
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 4
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 4
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 4
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 4
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 5
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 5
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 5
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 5
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 6
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 6
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 6
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 6
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 7
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 7
+    },
+    {
+        "name": "mega-kick",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 120,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 7
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 7
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 8
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 8
+    },
+    {
+        "name": "mega-kick",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 120,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 8
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 8
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 9
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 9
+    },
+    {
+        "name": "mega-kick",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 120,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 9
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 9
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 10
+    },
+    {
+        "name": "string-shot",
+        "effect": "Lowers the target's Speed by two stages.",
+        "power": null,
+        "pp": 40,
+        "type": "bug",
+        "pokemonId": 10
+    },
+    {
+        "name": "snore",
+        "effect": "Has a $effect_chance% chance to make the target flinch.  Only works if the user is sleeping.",
+        "power": 50,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 10
+    },
+    {
+        "name": "bug-bite",
+        "effect": "If target has a berry, inflicts double damage and uses the berry.",
+        "power": 60,
+        "pp": 20,
+        "type": "bug",
+        "pokemonId": 10
+    },
+    {
+        "name": "string-shot",
+        "effect": "Lowers the target's Speed by two stages.",
+        "power": null,
+        "pp": 40,
+        "type": "bug",
+        "pokemonId": 11
+    },
+    {
+        "name": "harden",
+        "effect": "Raises the user's Defense by one stage.",
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 11
+    },
+    {
+        "name": "iron-defense",
+        "effect": "Raises the user's Defense by two stages.",
+        "power": null,
+        "pp": 15,
+        "type": "steel",
+        "pokemonId": 11
+    },
+    {
+        "name": "bug-bite",
+        "effect": "If target has a berry, inflicts double damage and uses the berry.",
+        "power": 60,
+        "pp": 20,
+        "type": "bug",
+        "pokemonId": 11
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 12
+    },
+    {
+        "name": "gust",
+        "effect": "Inflicts regular damage and can hit Pokémon in the air.",
+        "power": 40,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 12
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 12
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 12
+    },
+    {
+        "name": "poison-sting",
+        "effect": "Has a $effect_chance% chance to poison the target.",
+        "power": 15,
+        "pp": 35,
+        "type": "poison",
+        "pokemonId": 13
+    },
+    {
+        "name": "string-shot",
+        "effect": "Lowers the target's Speed by two stages.",
+        "power": null,
+        "pp": 40,
+        "type": "bug",
+        "pokemonId": 13
+    },
+    {
+        "name": "bug-bite",
+        "effect": "If target has a berry, inflicts double damage and uses the berry.",
+        "power": 60,
+        "pp": 20,
+        "type": "bug",
+        "pokemonId": 13
+    },
+    {
+        "name": "electroweb",
+        "effect": "Lowers the target's Speed by one stage.",
+        "power": 55,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 13
+    },
+    {
+        "name": "string-shot",
+        "effect": "Lowers the target's Speed by two stages.",
+        "power": null,
+        "pp": 40,
+        "type": "bug",
+        "pokemonId": 14
+    },
+    {
+        "name": "harden",
+        "effect": "Raises the user's Defense by one stage.",
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 14
+    },
+    {
+        "name": "iron-defense",
+        "effect": "Raises the user's Defense by two stages.",
+        "power": null,
+        "pp": 15,
+        "type": "steel",
+        "pokemonId": 14
+    },
+    {
+        "name": "bug-bite",
+        "effect": "If target has a berry, inflicts double damage and uses the berry.",
+        "power": 60,
+        "pp": 20,
+        "type": "bug",
+        "pokemonId": 14
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 15
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 15
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 15
+    },
+    {
+        "name": "fury-attack",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 15
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 16
+    },
+    {
+        "name": "gust",
+        "effect": "Inflicts regular damage and can hit Pokémon in the air.",
+        "power": 40,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 16
+    },
+    {
+        "name": "wing-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 60,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 16
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 16
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 17
+    },
+    {
+        "name": "gust",
+        "effect": "Inflicts regular damage and can hit Pokémon in the air.",
+        "power": 40,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 17
+    },
+    {
+        "name": "wing-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 60,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 17
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 17
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 18
+    },
+    {
+        "name": "gust",
+        "effect": "Inflicts regular damage and can hit Pokémon in the air.",
+        "power": 40,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 18
+    },
+    {
+        "name": "wing-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 60,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 18
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 18
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 19
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 19
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 19
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 19
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 20
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 20
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 20
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 20
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 21
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 21
+    },
+    {
+        "name": "fly",
+        "effect": "User flies high into the air, dodging all attacks, and hits next turn.",
+        "power": 90,
+        "pp": 15,
+        "type": "flying",
+        "pokemonId": 21
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 21
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 22
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 22
+    },
+    {
+        "name": "fly",
+        "effect": "User flies high into the air, dodging all attacks, and hits next turn.",
+        "power": 90,
+        "pp": 15,
+        "type": "flying",
+        "pokemonId": 22
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 22
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 23
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 23
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 23
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 23
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 24
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 24
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 24
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 24
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 25
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 25
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 25
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 25
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 26
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 26
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 26
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 26
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 27
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 27
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 27
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 27
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 28
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 28
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 28
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 28
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 29
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 29
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 29
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 29
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 30
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 30
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 30
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 30
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 31
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 31
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 31
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 31
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 32
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 32
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 32
+    },
+    {
+        "name": "horn-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 65,
+        "pp": 25,
+        "type": "normal",
+        "pokemonId": 32
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 33
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 33
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 33
+    },
+    {
+        "name": "horn-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 65,
+        "pp": 25,
+        "type": "normal",
+        "pokemonId": 33
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 34
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 34
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 34
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 34
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 35
+    },
+    {
+        "name": "double-slap",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 35
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 35
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 35
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 36
+    },
+    {
+        "name": "double-slap",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 36
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 36
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 36
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 37
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 37
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 37
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 37
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 38
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 38
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 38
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 38
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 39
+    },
+    {
+        "name": "double-slap",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 39
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 39
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 39
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 40
+    },
+    {
+        "name": "double-slap",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 40
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 40
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 40
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 41
+    },
+    {
+        "name": "gust",
+        "effect": "Inflicts regular damage and can hit Pokémon in the air.",
+        "power": 40,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 41
+    },
+    {
+        "name": "wing-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 60,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 41
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 41
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 42
+    },
+    {
+        "name": "wing-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 60,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 42
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 42
+    },
+    {
+        "name": "fly",
+        "effect": "User flies high into the air, dodging all attacks, and hits next turn.",
+        "power": 90,
+        "pp": 15,
+        "type": "flying",
+        "pokemonId": 42
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 43
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 43
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 43
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 43
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 44
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 44
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 44
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 44
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 45
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 45
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 45
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 45
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 46
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 46
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 46
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 46
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 47
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 47
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 47
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 47
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 48
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 48
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 48
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 48
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 49
+    },
+    {
+        "name": "gust",
+        "effect": "Inflicts regular damage and can hit Pokémon in the air.",
+        "power": 40,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 49
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 49
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 49
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 50
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 50
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 50
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 50
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 51
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 51
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 51
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 51
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 52
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 52
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 52
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 52
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 53
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 53
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 53
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 53
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 54
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 54
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 54
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 54
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 55
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 55
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 55
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 55
+    },
+    {
+        "name": "karate-chop",
+        "effect": "Has an increased chance for a critical hit.",
+        "power": 50,
+        "pp": 25,
+        "type": "fighting",
+        "pokemonId": 56
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 56
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 56
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 56
+    },
+    {
+        "name": "karate-chop",
+        "effect": "Has an increased chance for a critical hit.",
+        "power": 50,
+        "pp": 25,
+        "type": "fighting",
+        "pokemonId": 57
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 57
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 57
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 57
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 58
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 58
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 58
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 58
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 59
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 59
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 59
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 59
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 60
+    },
+    {
+        "name": "double-slap",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 60
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 60
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 60
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 61
+    },
+    {
+        "name": "double-slap",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 61
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 61
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 61
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 62
+    },
+    {
+        "name": "double-slap",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 62
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 62
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 62
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 63
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 63
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 63
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 63
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 64
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 64
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 64
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 64
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 65
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 65
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 65
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 65
+    },
+    {
+        "name": "karate-chop",
+        "effect": "Has an increased chance for a critical hit.",
+        "power": 50,
+        "pp": 25,
+        "type": "fighting",
+        "pokemonId": 66
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 66
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 66
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 66
+    },
+    {
+        "name": "karate-chop",
+        "effect": "Has an increased chance for a critical hit.",
+        "power": 50,
+        "pp": 25,
+        "type": "fighting",
+        "pokemonId": 67
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 67
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 67
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 67
+    },
+    {
+        "name": "karate-chop",
+        "effect": "Has an increased chance for a critical hit.",
+        "power": 50,
+        "pp": 25,
+        "type": "fighting",
+        "pokemonId": 68
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 68
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 68
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 68
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 69
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 69
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 69
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 69
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 70
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 70
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 70
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 70
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 71
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 71
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 71
+    },
+    {
+        "name": "vine-whip",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 45,
+        "pp": 25,
+        "type": "grass",
+        "pokemonId": 71
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 72
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 72
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 72
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 72
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 73
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 73
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 73
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 73
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 74
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 74
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 74
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 74
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 75
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 75
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 75
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 75
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 76
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 76
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 76
+    },
+    {
+        "name": "mega-kick",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 120,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 76
+    },
+    {
+        "name": "stomp",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 65,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 77
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 77
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 77
+    },
+    {
+        "name": "horn-drill",
+        "effect": "Causes a one-hit KO.",
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 77
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 78
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 78
+    },
+    {
+        "name": "stomp",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 65,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 78
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 78
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 79
+    },
+    {
+        "name": "stomp",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 65,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 79
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 79
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 79
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 80
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 80
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 80
+    },
+    {
+        "name": "stomp",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 65,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 80
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 81
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 81
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 81
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 81
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 82
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 82
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 82
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 82
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 83
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 83
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 83
+    },
+    {
+        "name": "gust",
+        "effect": "Inflicts regular damage and can hit Pokémon in the air.",
+        "power": 40,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 83
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 84
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 84
+    },
+    {
+        "name": "fly",
+        "effect": "User flies high into the air, dodging all attacks, and hits next turn.",
+        "power": 90,
+        "pp": 15,
+        "type": "flying",
+        "pokemonId": 84
+    },
+    {
+        "name": "jump-kick",
+        "effect": "If the user misses, it takes half the damage it would have inflicted in recoil.",
+        "power": 100,
+        "pp": 10,
+        "type": "fighting",
+        "pokemonId": 84
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 85
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 85
+    },
+    {
+        "name": "fly",
+        "effect": "User flies high into the air, dodging all attacks, and hits next turn.",
+        "power": 90,
+        "pp": 15,
+        "type": "flying",
+        "pokemonId": 85
+    },
+    {
+        "name": "jump-kick",
+        "effect": "If the user misses, it takes half the damage it would have inflicted in recoil.",
+        "power": 100,
+        "pp": 10,
+        "type": "fighting",
+        "pokemonId": 85
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 86
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 86
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 86
+    },
+    {
+        "name": "horn-drill",
+        "effect": "Causes a one-hit KO.",
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 86
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 87
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 87
+    },
+    {
+        "name": "horn-drill",
+        "effect": "Causes a one-hit KO.",
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 87
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 87
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 88
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 88
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 88
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 88
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 89
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 89
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 89
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 89
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 90
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 90
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 90
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 90
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 91
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 91
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 91
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 91
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 92
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 92
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 92
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 92
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 93
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 93
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 93
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 93
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 94
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 94
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 94
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 94
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 95
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 95
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 95
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 95
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 96
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 96
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 96
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 96
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 97
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 97
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 97
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 97
+    },
+    {
+        "name": "vice-grip",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 55,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 98
+    },
+    {
+        "name": "guillotine",
+        "effect": "Causes a one-hit KO.",
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 98
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 98
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 98
+    },
+    {
+        "name": "vice-grip",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 55,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 99
+    },
+    {
+        "name": "guillotine",
+        "effect": "Causes a one-hit KO.",
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 99
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 99
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 99
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 100
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 100
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 100
+    },
+    {
+        "name": "sonic-boom",
+        "effect": "Inflicts 20 points of damage.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 100
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 101
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 101
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 101
+    },
+    {
+        "name": "sonic-boom",
+        "effect": "Inflicts 20 points of damage.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 101
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 102
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 102
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 102
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 102
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 103
+    },
+    {
+        "name": "stomp",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 65,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 103
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 103
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 103
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 104
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 104
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 104
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 104
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 105
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 105
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 105
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 105
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 106
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 106
+    },
+    {
+        "name": "mega-kick",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 120,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 106
+    },
+    {
+        "name": "jump-kick",
+        "effect": "If the user misses, it takes half the damage it would have inflicted in recoil.",
+        "power": 100,
+        "pp": 10,
+        "type": "fighting",
+        "pokemonId": 106
+    },
+    {
+        "name": "comet-punch",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 18,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 107
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 107
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 107
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 107
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 108
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 108
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 108
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 108
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 109
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 109
+    },
+    {
+        "name": "flamethrower",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 90,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 109
+    },
+    {
+        "name": "psybeam",
+        "effect": "Has a $effect_chance% chance to confuse the target.",
+        "power": 65,
+        "pp": 20,
+        "type": "psychic",
+        "pokemonId": 109
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 110
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 110
+    },
+    {
+        "name": "flamethrower",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 90,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 110
+    },
+    {
+        "name": "psybeam",
+        "effect": "Has a $effect_chance% chance to confuse the target.",
+        "power": 65,
+        "pp": 20,
+        "type": "psychic",
+        "pokemonId": 110
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 111
+    },
+    {
+        "name": "stomp",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 65,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 111
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 111
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 111
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 112
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 112
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 112
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 112
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 113
+    },
+    {
+        "name": "double-slap",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 113
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 113
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 113
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 114
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 114
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 114
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 114
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 115
+    },
+    {
+        "name": "comet-punch",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 18,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 115
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 115
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 115
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 116
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 116
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 116
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 116
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 117
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 117
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 117
+    },
+    {
+        "name": "leer",
+        "effect": "Lowers the target's Defense by one stage.",
+        "power": null,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 117
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 118
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 118
+    },
+    {
+        "name": "horn-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 65,
+        "pp": 25,
+        "type": "normal",
+        "pokemonId": 118
+    },
+    {
+        "name": "fury-attack",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 118
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 119
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 119
+    },
+    {
+        "name": "horn-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 65,
+        "pp": 25,
+        "type": "normal",
+        "pokemonId": 119
+    },
+    {
+        "name": "fury-attack",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 119
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 120
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 120
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 120
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 120
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 121
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 121
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 121
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 121
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 122
+    },
+    {
+        "name": "double-slap",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 122
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 122
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 122
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 123
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 123
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 123
+    },
+    {
+        "name": "wing-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 60,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 123
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 124
+    },
+    {
+        "name": "double-slap",
+        "effect": "Hits 2-5 times in one turn.",
+        "power": 15,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 124
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 124
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 124
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 125
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 125
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 125
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 125
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 126
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 126
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 126
+    },
+    {
+        "name": "mega-kick",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 120,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 126
+    },
+    {
+        "name": "vice-grip",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 55,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 127
+    },
+    {
+        "name": "guillotine",
+        "effect": "Causes a one-hit KO.",
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 127
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 127
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 127
+    },
+    {
+        "name": "stomp",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 65,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 128
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 128
+    },
+    {
+        "name": "horn-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 65,
+        "pp": 25,
+        "type": "normal",
+        "pokemonId": 128
+    },
+    {
+        "name": "horn-drill",
+        "effect": "Causes a one-hit KO.",
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 128
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 129
+    },
+    {
+        "name": "hydro-pump",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 110,
+        "pp": 5,
+        "type": "water",
+        "pokemonId": 129
+    },
+    {
+        "name": "splash",
+        "effect": "Does nothing.",
+        "power": null,
+        "pp": 40,
+        "type": "normal",
+        "pokemonId": 129
+    },
+    {
+        "name": "flail",
+        "effect": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power.",
+        "power": null,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 129
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 130
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 130
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 130
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 130
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 131
+    },
+    {
+        "name": "horn-drill",
+        "effect": "Causes a one-hit KO.",
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 131
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 131
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 131
+    },
+    {
+        "name": "transform",
+        "effect": "User becomes a copy of the target until it leaves battle.",
+        "power": null,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 132
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 133
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 133
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 133
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 133
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 134
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 134
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 134
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 134
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 135
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 135
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 135
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 135
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 136
+    },
+    {
+        "name": "double-kick",
+        "effect": "Hits twice in one turn.",
+        "power": 30,
+        "pp": 30,
+        "type": "fighting",
+        "pokemonId": 136
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 136
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 136
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 137
+    },
+    {
+        "name": "tackle",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 137
+    },
+    {
+        "name": "take-down",
+        "effect": "User receives 1/4 the damage it inflicts in recoil.",
+        "power": 90,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 137
+    },
+    {
+        "name": "double-edge",
+        "effect": "User receives 1/3 the damage inflicted in recoil.",
+        "power": 120,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 137
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 138
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 138
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 138
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 138
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 139
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 139
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 139
+    },
+    {
+        "name": "horn-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 65,
+        "pp": 25,
+        "type": "normal",
+        "pokemonId": 139
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 140
+    },
+    {
+        "name": "sand-attack",
+        "effect": "Lowers the target's accuracy by one stage.",
+        "power": null,
+        "pp": 15,
+        "type": "ground",
+        "pokemonId": 140
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 140
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 140
+    },
+    {
+        "name": "scratch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 141
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 141
+    },
+    {
+        "name": "swords-dance",
+        "effect": "Raises the user's Attack by two stages.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 141
+    },
+    {
+        "name": "cut",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 50,
+        "pp": 30,
+        "type": "normal",
+        "pokemonId": 141
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 142
+    },
+    {
+        "name": "wing-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 60,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 142
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 142
+    },
+    {
+        "name": "fly",
+        "effect": "User flies high into the air, dodging all attacks, and hits next turn.",
+        "power": 90,
+        "pp": 15,
+        "type": "flying",
+        "pokemonId": 142
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 143
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 143
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 143
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 143
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 144
+    },
+    {
+        "name": "gust",
+        "effect": "Inflicts regular damage and can hit Pokémon in the air.",
+        "power": 40,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 144
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 144
+    },
+    {
+        "name": "fly",
+        "effect": "User flies high into the air, dodging all attacks, and hits next turn.",
+        "power": 90,
+        "pp": 15,
+        "type": "flying",
+        "pokemonId": 144
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 145
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 145
+    },
+    {
+        "name": "fly",
+        "effect": "User flies high into the air, dodging all attacks, and hits next turn.",
+        "power": 90,
+        "pp": 15,
+        "type": "flying",
+        "pokemonId": 145
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 145
+    },
+    {
+        "name": "razor-wind",
+        "effect": "Requires a turn to charge before attacking.",
+        "power": 80,
+        "pp": 10,
+        "type": "normal",
+        "pokemonId": 146
+    },
+    {
+        "name": "gust",
+        "effect": "Inflicts regular damage and can hit Pokémon in the air.",
+        "power": 40,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 146
+    },
+    {
+        "name": "wing-attack",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 60,
+        "pp": 35,
+        "type": "flying",
+        "pokemonId": 146
+    },
+    {
+        "name": "whirlwind",
+        "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon.",
+        "power": null,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 146
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 147
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 147
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 147
+    },
+    {
+        "name": "body-slam",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 85,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 147
+    },
+    {
+        "name": "bind",
+        "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns.",
+        "power": 15,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 148
+    },
+    {
+        "name": "slam",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 148
+    },
+    {
+        "name": "headbutt",
+        "effect": "Has a $effect_chance% chance to make the target flinch.",
+        "power": 70,
+        "pp": 15,
+        "type": "normal",
+        "pokemonId": 148
+    },
+    {
+        "name": "horn-drill",
+        "effect": "Causes a one-hit KO.",
+        "power": null,
+        "pp": 5,
+        "type": "normal",
+        "pokemonId": 148
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 149
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 149
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 149
+    },
+    {
+        "name": "thunder-punch",
+        "effect": "Has a $effect_chance% chance to paralyze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "electric",
+        "pokemonId": 149
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 150
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 150
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 150
+    },
+    {
+        "name": "ice-punch",
+        "effect": "Has a $effect_chance% chance to freeze the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "ice",
+        "pokemonId": 150
+    },
+    {
+        "name": "pound",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 40,
+        "pp": 35,
+        "type": "normal",
+        "pokemonId": 151
+    },
+    {
+        "name": "mega-punch",
+        "effect": "Inflicts regular damage with no additional effect.",
+        "power": 80,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 151
+    },
+    {
+        "name": "pay-day",
+        "effect": "Scatters money on the ground worth five times the user's level.",
+        "power": 40,
+        "pp": 20,
+        "type": "normal",
+        "pokemonId": 151
+    },
+    {
+        "name": "fire-punch",
+        "effect": "Has a $effect_chance% chance to burn the target.",
+        "power": 75,
+        "pp": 15,
+        "type": "fire",
+        "pokemonId": 151
+    }
+]

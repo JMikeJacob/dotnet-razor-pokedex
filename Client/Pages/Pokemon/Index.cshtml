@@ -1,0 +1,78 @@
+@page "{pageIndex:int?}"
+@model PokedexV2.Pages_Pokemon.IndexModel
+
+@{
+    ViewData["Title"] = "National Pokedex";
+}
+@* <p>
+    <a asp-page="Create">Create New</a>
+</p> *@
+<div class="container-fluid listing">
+    <div class="card shadow bg-white rounded">
+        <div class="card-header">
+            <h2 style="text-align:center">NATIONAL POKEDEX</h2>
+        </div>
+        <div class="card-body">
+            <div class="row">
+            <div class="col heroes">
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-center justify-content-md-start">
+                        <form method="post">
+                        <div class="input-group mb-3">
+                            <input type="text" name="query" class="form-control" placeholder="Search Pokemon..." aria-label="Search Pokemon..." aria-describedby="basic-addon2" value="@Model.Pokemon.QueryFilter">
+                            <button class="btn btn-outline-secondary" type="submit" asp-page-handler="search"><i class="bi bi-search"></i></button>
+                        </div>
+                        </form>
+                        @{
+                            int firstItemIndex = Model.Pokemon.PageSize * (Model.Pokemon.PageIndex - 1) + 1;
+                            int lastItemIndex = firstItemIndex + Model.Pokemon.PageSize - 1;
+                            if (lastItemIndex > Model.Pokemon.TotalItems) {
+                                lastItemIndex = Model.Pokemon.TotalItems;
+                            }
+                        }
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pagination d-flex justify-content-center justify-content-md-end">
+                            @{
+                                string prevDisabled = !Model.Pokemon.HasPreviousPage ? "disabled" : "";
+                                string nextDisabled = !Model.Pokemon.HasNextPage ? "disabled" : "";
+                            }
+                            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                                <a asp-page="/Pokemon/Index" asp-route-pageIndex="1" asp-route-query="@Model.Pokemon.QueryFilter" class="btn btn-outline-primary @prevDisabled"><i class="bi bi-skip-backward-fill"></i></a>
+                                <a asp-page="/Pokemon/Index" asp-route-pageIndex="@(Model.Pokemon.PageIndex - 1)" asp-route-query="@Model.Pokemon.QueryFilter" class="btn btn-outline-primary @prevDisabled"><i class="bi bi-skip-start-fill"></i></a>
+                                @for(int i = Model.Pokemon.MinPageIndexDisplay; i <= Model.Pokemon.MaxPageIndexDisplay; i++) {
+                                    string activePage = Model.Pokemon.PageIndex == i ? "active" : "";
+                                    <a asp-page="/Pokemon/Index" asp-route-pageIndex="@i" asp-route-query="@Model.Pokemon.QueryFilter" class="btn btn-outline-primary @activePage">@i</a>
+                                }
+                                <a asp-page="/Pokemon/Index" asp-route-pageIndex="@(Model.Pokemon.PageIndex + 1)" asp-route-query="@Model.Pokemon.QueryFilter" class="btn btn-outline-primary @nextDisabled"><i class="bi bi-skip-end-fill"></i></a>
+                                <a asp-page="/Pokemon/Index" asp-route-pageIndex="@Model.Pokemon.TotalPages" asp-route-query="@Model.Pokemon.QueryFilter" class="btn btn-outline-primary @nextDisabled"><i class="bi bi-skip-forward-fill"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-1">
+                    <div class="col d-flex justify-content-center justify-content-md-end">
+                        <span class="d-">@firstItemIndex - @lastItemIndex of @Model.Pokemon.TotalItems</span>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col">
+                        <div class="list-group">
+                            @foreach (var item in Model.Pokemon) {
+                                <a asp-page="./Details" asp-route-id="@item.ID" class="list-group-item list-group-item-action">
+                                    <span class="badge bg-dark">
+                                        @item.GetPaddedId()
+                                    </span> 
+                                    <span class="hero-name">
+                                        @Html.DisplayFor(modelItem => item.Name)
+                                    </span>
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>

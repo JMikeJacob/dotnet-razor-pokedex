@@ -1,0 +1,125 @@
+div[b-f9fqvsqq8o] {
+    font-family: 'pokemon-font', monospace;
+}
+
+.type[b-f9fqvsqq8o] {
+    text-transform: uppercase;
+}
+
+.card-header[b-f9fqvsqq8o] {
+    background-color:#222224;
+    color: white;
+}
+
+.flavor-text[b-f9fqvsqq8o] {
+    background-color: white;
+    padding:1em;
+    margin-top:0.5em;
+}
+
+.capitalize[b-f9fqvsqq8o] {
+    text-transform: capitalize;
+    margin-left: 0.5em;
+}
+
+  .genus[b-f9fqvsqq8o] {
+      padding-top:0.5em;
+  }
+
+  .color-green[b-f9fqvsqq8o] {
+      background-color: green;
+  }
+
+  .type-display[b-f9fqvsqq8o] {
+    margin-top: 0.25em;
+  }
+
+  .normal[b-f9fqvsqq8o] {
+	background-color: #A8A878;
+	border: 1px solid #6D6D4E;
+}
+
+.fire[b-f9fqvsqq8o] {
+	background-color: #F08030;
+	border: 1px solid #9C531F;
+}
+
+.water[b-f9fqvsqq8o] {
+	background-color: #6890F0;
+	border: 1px solid #445E9C;
+}
+
+.electric[b-f9fqvsqq8o] {
+	background-color: #F8D030;
+	border: 1px solid #A1871F;
+}
+
+.grass[b-f9fqvsqq8o] {
+	background-color: #78C850;
+	border: 1px solid #4E8234;
+}
+
+.ice[b-f9fqvsqq8o] {
+	background-color: #98D8D8;
+	border: 1px solid #638D8D;
+}
+
+.ground[b-f9fqvsqq8o] {
+	background-color: #E0C068;
+	border: 1px solid #927D44;
+}
+
+.flying[b-f9fqvsqq8o] {
+	background-color: #A890F0;
+	border: 1px solid #6D5E9C;
+}
+
+.ghost[b-f9fqvsqq8o] {
+	background-color: #705898;
+	border: 1px solid #493963;
+}
+
+.rock[b-f9fqvsqq8o] {
+	background-color: #B8A038;
+	border: 1px solid #786824;
+}
+
+.fighting[b-f9fqvsqq8o] {
+	background-color: #C03028;
+	border: 1px solid #7D1F1A;
+}
+
+.poison[b-f9fqvsqq8o] {
+	background-color: #A040A0;
+	border: 1px solid #682A68;
+}
+
+.psychic[b-f9fqvsqq8o] {
+	background-color: #F85888;
+	border: 1px solid #A13959;
+}
+
+.bug[b-f9fqvsqq8o] {
+	background-color: #A8B820;
+	border: 1px solid #6D7815;
+}
+
+.dark[b-f9fqvsqq8o] {
+	background-color: #705848;
+	border: 1px solid #49392F;
+}
+
+.steel[b-f9fqvsqq8o] {
+	background-color: #B8B8D0;
+	border: 1px solid #787887;
+}
+
+.dragon[b-f9fqvsqq8o] {
+	background-color: #7038F8;
+    border: 1px solid #4924A1;
+}
+
+.fairy[b-f9fqvsqq8o] {
+    background-color: #D685AD;
+    border: 1px solid #A6358D;
+}

@@ -1,0 +1,40 @@
+span.capitalize[b-ndnlhuegjk] {
+    text-transform: capitalize;
+}
+
+span.badge.pull-left[b-ndnlhuegjk] {
+    margin-right: 1em;
+    width: 5em;
+}
+
+span.hero-name[b-ndnlhuegjk] {
+    margin-left: 1em;
+    text-transform: uppercase;
+}
+
+div[b-ndnlhuegjk] {
+    font-family: 'pokemon-font', monospace;
+}
+
+.card-header[b-ndnlhuegjk] {
+    background-color: #ee1515;
+    color: white;
+}
+
+.card-body[b-ndnlhuegjk] {
+    background-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-test[b-ndnlhuegjk] {
+        margin-top:-1px;
+    }
+
+    .heroes[b-ndnlhuegjk] {
+        margin-bottom:-1px;
+    }
+
+    .btn[b-ndnlhuegjk] {
+        margin-bottom:1em;
+}
+}

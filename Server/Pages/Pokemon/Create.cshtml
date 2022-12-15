@@ -1,0 +1,152 @@
+@page
+@model Server.Pages_Pokemon.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Pokemon</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Pokemon.Name" class="control-label"></label>
+                <input asp-for="Pokemon.Name" class="form-control" />
+                <span asp-validation-for="Pokemon.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pokemon.Genus" class="control-label"></label>
+                <input asp-for="Pokemon.Genus" class="form-control" />
+                <span asp-validation-for="Pokemon.Genus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pokemon.Type1" class="control-label"></label>
+                <select asp-for="Pokemon.Type1" class="form-control">
+                    <option value="Bug">Bug</option>
+                    <option value="Dark">Dark</option>
+                    <option value="Dragon">Dragon</option>
+                    <option value="Electric">Electric</option>
+                    <option value="Fairy">Fairy</option>
+                    <option value="Fighting">Fighting</option>
+                    <option value="Fire">Fire</option>
+                    <option value="Flying">Flying</option>
+                    <option value="Ghost">Ghost</option>
+                    <option value="Grass">Grass</option>
+                    <option value="Ground">Ground</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Poison">Poison</option>
+                    <option value="Psychic">Psychic</option>
+                    <option value="Ice">Ice</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Steel">Steel</option>
+                    <option value="Water">Water</option>
+                </select>
+                <span asp-validation-for="Pokemon.Type1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pokemon.Type2" class="control-label"></label>
+                <select asp-for="Pokemon.Type2" class="form-control">
+                    <option value="">None</option>
+                    <option value="Bug">Bug</option>
+                    <option value="Dark">Dark</option>
+                    <option value="Dragon">Dragon</option>
+                    <option value="Electric">Electric</option>
+                    <option value="Fairy">Fairy</option>
+                    <option value="Fighting">Fighting</option>
+                    <option value="Fire">Fire</option>
+                    <option value="Flying">Flying</option>
+                    <option value="Ghost">Ghost</option>
+                    <option value="Grass">Grass</option>
+                    <option value="Ground">Ground</option>
+                    <option value="Normal">Normal</option>
+                    <option value="Poison">Poison</option>
+                    <option value="Psychic">Psychic</option>
+                    <option value="Ice">Ice</option>
+                    <option value="Rock">Rock</option>
+                    <option value="Steel">Steel</option>
+                    <option value="Water">Water</option>
+                </select>
+                <span asp-validation-for="Pokemon.Type2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pokemon.Height" class="control-label"></label>
+                <input asp-for="Pokemon.Height" class="form-control" />
+                <span asp-validation-for="Pokemon.Height" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pokemon.Weight" class="control-label"></label>
+                <input asp-for="Pokemon.Weight" class="form-control" />
+                <span asp-validation-for="Pokemon.Weight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pokemon.Definition" class="control-label"></label>
+                <input asp-for="Pokemon.Definition" class="form-control" />
+                <span asp-validation-for="Pokemon.Definition" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pokemon.PhotoPath" class="control-label"></label>
+                <input asp-for="Pokemon.PhotoPath" class="form-control" />
+                <span asp-validation-for="Pokemon.PhotoPath" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pokemon.Habitat" class="control-label"></label>
+                <input asp-for="Pokemon.Habitat" class="form-control" />
+                <span asp-validation-for="Pokemon.Habitat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pokemon.Generation" class="control-label"></label>
+                <input asp-for="Pokemon.Generation" class="form-control" />
+                <span asp-validation-for="Pokemon.Generation" class="text-danger"></span>
+            </div>
+            <br/>
+            <label asp-for="Pokemon.Abilities" class="control-label"></label>
+            @if(Model.Pokemon != default! && Model.Pokemon.Abilities != null) {
+                @for(int i = 0; i < Model.Pokemon.Abilities.Count; i++)
+                {
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label asp-for="@Model.Pokemon.Abilities[i].Name" class="control-label"></label>
+                                <input asp-for="@Model.Pokemon.Abilities[i].Name" class="form-control" />
+                                <span asp-validation-for="@Model.Pokemon.Abilities[i].Name" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-8">
+                            <div class="form-group">
+                                <label asp-for="@Model.Pokemon.Abilities[i].Effect" class="control-label"></label>
+                                <input asp-for="@Model.Pokemon.Abilities[i].Effect" class="form-control" />
+                                <span asp-validation-for="@Model.Pokemon.Abilities[i].Effect" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="hidden" asp-for="@Model.Pokemon.Abilities[i].PokemonId" value="@Model.Pokemon.ID" />
+                }
+            }
+            <br/>
+            <div class="btn-group">
+                @{
+                    string? disableAdd = Model.Pokemon != default! && Model.Pokemon.Abilities != default! && Model.Pokemon.Abilities.Count >= 3 ? "disable" : null;
+                    string? disableRemove = Model.Pokemon == default! || Model.Pokemon.Abilities == default! || Model.Pokemon.Abilities.Count == 0 ? "disable" : null;
+                }
+                <button type="submit" class="btn btn-success" formnovalidate asp-page-handler="AddAbility" disabled="@disableAdd">Add Ability</button>
+                <button type="submit" class="btn btn-danger" formnovalidate asp-page-handler="RemoveAbility" disabled="@disableRemove">Remove Last Ability</button>
+            </div>
+            <br/><br/>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
